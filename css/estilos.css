@@ -1,0 +1,40 @@
+body {
+
+    background-color: black;
+
+}
+
+.flexContenedor {
+
+    display: flex;
+    /* background-color: aqua; */
+
+}
+
+.divIzquierdo {
+
+    display: flex;
+    width: 50%;
+    align-items: center;
+    /* background-color: blue; */
+
+}
+
+.divDerecho {
+
+    display: flex;
+    width: 50%;
+    justify-content: end;
+    margin-right: 40px;
+    align-items: end;
+    /* background-color: brown; */
+}
+
+nav > a, .divDerecho > a {
+
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 20px;
+
+}
